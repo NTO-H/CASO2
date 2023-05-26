@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+   <link rel="stylesheet" href="estilo2.css">
+
+ </head>
+
+<body>
+    <h1 id="encabezado">Ecuesta de satisfacción de evento</h1>
+    <!-- get no es tan segura y post si ya que genera caractrties en ell linik -->
+<!-- values="usuario" usar el placeolder -->
+     <h3 class="descripcion">su opinión es importante para nosotros,permítanos saber cómo se sintío durante el evento y ayúdenos a hacerlo cada vez mejor! </h3>
+
+<form class="fom1" >
+<form id="inputs"> 
+    <input type="text" name="user"  required placeholder="usuario"/><br>
+    <br>
+    <input type="email" name="user"  required placeholder="correo electronico "/><br>
+    <br>
+    <input class="edad" type="number" name="user"  required placeholder="edad"/><br>
+    <br>
+    <br>
+<!-- </form> -->
+
+    <!-- <form class="fom1" > -->
+    <div>
+       <label  class="ocupacion">ocupacion</label> 
+        <select>
+            <option>Excelente</option>
+            <option>Bueno</option>
+            <option>regular</option>
+            <option>malo</option>
+        </select>
+    </div>
+<!-- </form> -->
+<br>
+<strong>¿Cumplió el evento con tus expectativas?</strong>
+
+<textarea name="cuadro de comentarios" class="co" cols="30" rows="10" placeholder="comentarios"></textarea>
+        <br>
+
+        
+        <strong>¿Cumplió la conferencia con tus expectativas ?</strong>
+        <textarea name="cuadro de comentarios" class="co" cols="30" rows="10" placeholder="comentarios"></textarea>
+        
+        
+        <strong> ¿cuánta información te fue proporcionada para ayudarte a entender mejor de qué se trataba?</strong>
+        <textarea name="cuadro de comentarios" class="co" cols="30" rows="10" placeholder="comentarios"></textarea>
+        
+        
+        <strong>¿Tienes algún otro comentario o sugerencia que nos ayude a mejorar los eventos futuros?</strong>
+        <textarea name="cuadro de comentarios" class="co" cols="30" rows="10" placeholder="comentarios"></textarea>
+
+        <form method="post" name="" action="enviado.html">     
+        <input  class="enviar" type="submit" value="Enviar"">
+</form>
+</form>
+
+
+    </form>
+</body>
+
+</html>
